@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+
+</head>
+<!--!!!LES "<BR>" son mis pour faire l'espacement entre chaque "ligne" car aucune idée de comment faire autrement !!!-->
+<body>
+
+    <Header>
+
+    <img src="img/assets/jarditou_logo.jpg" width="350" height="100" alt="Logo Jarditou">
+
+    </Header>
+    
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html" title="Accueil">Accueil</a><br></li>
+             <li><a href="tableau.html" title="Tableau">Tableau</a><br></li>
+              <li><a href="contact.html" title="Contact">Contact</a><br></li>
+        
+        </ul>
+
+    
+
+    </nav>
+
+    <div>
+
+
+    <img src="img/assets/promotion.jpg" alt="Promotion">
+    
+     <b> 
+         Contact
+    </b>
+
+    <hr>
+
+        <!--1er Formulaire-->
+<p> * Ces zones sont obligatoires </p>
+
+<form action="http://bienvu.net/script.php" method="get" enctype="multipart/form-data">
+
+        <fieldset>
+
+            <legend>Vos Coordonnées</legend>
+
+            <br>
+
+              <label for="Nom">Votre Nom*: </label><input type="text"  pattern="^[A-z]+$" required title="Nom" name="Nom" id="Nom"><br>
+
+            <br>
+
+                <label for="Prénom">Votre Prénom*: </label><input type="text" placeholder="Entrez votre Prénom" pattern="^[A-z]+$" required title="Prénom" name="Prénom" id="Prénom"><br>
+
+            <br>
+
+                  <label for="Sexe">Sexe:</label><input type="radio" name="Sexe" value="Féminin" id="Sexe">Féminin
+                    <input type="radio" name="Sexe" value="Homme"> Homme <br>
+
+            <br>
+
+                      <label for="date">Date de Naissance*: </label><input required title="ddn" type="date" name="ddn" id="date"><br>
+            <br>
+                        <label for="CodePostal">Code Postal*: </label><input type="number" placeholder="Entrez votre code postal" required title="Entrez votre code postal" name="CodePostal" id="CodePostal"><br>
+            <br>
+                          <label for="Adresse">Adresse: </label><input type="text" name="Adresse" id="Adresse"><br>
+            <br>
+                            <label for="Ville">Ville: </label><input type="text" name="Ville" id="Ville"><br>
+            <br>
+                              <label for="Email">Email*: </label> <input type="email" placeholder="Entrez votre Email" pattern="^[A-z]+$" required title="Entrez votre Email" name="Email" id="Email"><br>
+            
+                               </fieldset><br>
+            
+            <!--2ème Formulaire-->
+
+            <fieldset>
+            
+            <legend>Votre demande</legend>
+            <br>
+
+            <label for="Votredemande">Sujet*: </label>
+    
+             <select id="Votredemande" required title="Veuillez selectionner un sujet" >
+              <option value="">Veuillez selectionner un sujet</option>
+               <option value="Second">Mes commandes</option>
+                <option value="Third">Question sur un produit</option>
+                 <option value="Fourth">Réclamation</option>
+                  <option value="fifth">Autres</option>
+        
+            </select>
+            
+            <br>
+            <br>
+
+            <label for="Votrequestion">Votre question* :</label> <textarea name="Votrequestion" cols="20" rows="1" id="Votrequestion"></textarea><br>
+            
+            
+            </fieldset> <br>
+
+            
+            <input type="checkbox"> j'accepte le traitement informatique de ce formulaire >
+
+            <br>
+
+            <input type="submit" value="envoyer">
+             <input type="reset"  value="annuler">
+</form>
+    </div>
+
+    <aside>
+    </aside>
+
+    <!--Lien Mentions légales et autres-->
+
+    <footer>
+        
+        <ul>
+            
+        <li> <a href="Mentionlégales" title="Mention légales">Mentions légales</a> <br> </li>
+         <li> <a href="Horaires" title="Horaires">Horaires</a> <br> </li>
+          <li> <a href="Plandusite" title="PlanDuSite"> Plan du site </a> <br> </li>
+
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>
