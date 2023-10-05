@@ -4,9 +4,11 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Contact</title>
+      <title>Contact</title>
+
+       <link rel="Stylesheet" href="Style.css/StyleSheet.css">
 
 </head>
 <!--!!!LES "<BR>" son mis pour faire l'espacement entre chaque "ligne" car aucune idée de comment faire autrement !!!-->
@@ -15,6 +17,7 @@
     <Header>
 
     <img src="img/assets/jarditou_logo.jpg" width="350" height="100" alt="Logo Jarditou">
+
 
     </Header>
     
@@ -29,18 +32,14 @@
         
         </ul>
 
-    
+        <img id="promotion" src="img/assets/promotion.jpg" alt="Promotion">
 
     </nav>
 
-    <div>
 
 
-    <img src="img/assets/promotion.jpg" alt="Promotion">
-    
-     <b> 
-         Contact
-    </b>
+    <main>
+            
 
     <hr>
 
@@ -48,7 +47,7 @@
 <p> * Ces zones sont obligatoires </p>
 
 <form action="http://bienvu.net/script.php" method="get" enctype="multipart/form-data">
-
+    
         <fieldset>
 
             <legend>Vos Coordonnées</legend>
@@ -76,7 +75,7 @@
             <br>
                             <label for="Ville">Ville: </label><input type="text" name="Ville" id="Ville"><br>
             <br>
-                              <label for="Email">Email*: </label> <input type="email" placeholder="Entrez votre Email" pattern="^[A-z]+$" required title="Entrez votre Email" name="Email" id="Email"><br>
+                              <label for="Email">Email*: </label> <input type="email" placeholder="Entrez votre Email" required title="Entrez votre Email" name="Email" id="Email"><br>
             
                                </fieldset><br>
             
@@ -90,6 +89,7 @@
             <label for="Votredemande">Sujet*: </label>
     
              <select id="Votredemande" required title="Veuillez selectionner un sujet" >
+
               <option value="">Veuillez selectionner un sujet</option>
                <option value="Second">Mes commandes</option>
                 <option value="Third">Question sur un produit</option>
@@ -113,11 +113,11 @@
 
             <input type="submit" value="envoyer">
              <input type="reset"  value="annuler">
-</form>
-    </div>
+            </form>
+</main>
 
-    <aside>
-    </aside>
+
+    
 
     <!--Lien Mentions légales et autres-->
 

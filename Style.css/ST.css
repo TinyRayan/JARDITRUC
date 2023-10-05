@@ -1,0 +1,81 @@
+nav ul {
+    padding: 2em;
+    border: 1px solid black;
+    background-color: #000000;
+}
+
+
+body {
+    background-color: # FFFFCC;
+    margin-left: 100px;
+}
+
+
+a{color: white;}
+a:visited {
+ color: rgb(140, 0, 255);
+}
+a:hover {
+    color: green;
+}
+
+ul {
+
+    gap: 2rem;
+    list-style: none;
+    display: flex;
+}
+
+/* Taille des titre " Entreprise etc... */
+
+h1 {
+    text-align: right;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 16pt;
+    color:#000000;
+    font-style: italic;
+    
+}
+
+
+.ecrit {
+    text-decoration: ;
+    text-underline-offset: 6px;
+    width: auto;
+    margin-bottom: 1mm;
+    font-size: 28pt;
+    color:#55ad22;
+    font-style: italic;
+    border-bottom: solid thin black;
+}
+
+p { 
+
+    text-shadow: rgba(20, 19, 19, 0.247) 2px 1px;
+    width: auto;
+    height: auto;
+    font-size: 14pt;
+    line-height: 14pt;
+    font-family: Arial;
+    letter-spacing: 0.2mm;
+    word-spacing: 0.8mm;
+    color: rgb(0, 0, 0);
+}
+
+.promotion {
+   
+    max-width: 100%;
+    height: auto;
+    border-bottom-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+
+}
+
+footer ul {
+    padding: 2em;
+    border: 1px solid black;
+    background-color: #000000;
+}
