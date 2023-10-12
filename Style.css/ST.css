@@ -79,3 +79,11 @@ footer ul {
     border: 1px solid black;
     background-color: #000000;
 }
+
+@media screen and (max-width:768px)
+{
+
+    aside {display: none;}
+
+
+}

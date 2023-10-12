@@ -4,31 +4,46 @@ html{
     background-color: antiquewhite;
 }
 
-header {
+header{
+
     display: flex;
      text-decoration: underline;
       text-transform: capitalize;
-       font-size: 16px ;
+       font-size: 16px;
         gap: 25%;
          align-items: center;
+    
      }
+    
+    .LogoJardi{
 
+        width: 25em;
+        height: 9em;
 
-ul {
+    } 
 
+/* ^^^^ logo + slogan au dessus ^^^^ */
+
+/*  barre de nav en dessous  */
+
+ ul {
+
+ display: flex;
   list-style-type: none;
    margin: 0;
     padding: 0;
      overflow: hidden;
-    background-color: #1d1d1d;
-}
+      background-color: #2e2a2a;
+  }
 
-li { 
+  li { 
 
-    float: left;
-
-}
-  li a{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    
+  }
+   li a{
 
     display: block;
      color: white;
@@ -36,19 +51,21 @@ li {
       padding: 12px 16px;
        text-decoration: none;
 
-}
+  }
 
- li a:hover {
+   li a:hover {
 
     background-color: #555;
      color : white;
+   }
+
+   li a:active{
+
+   background-color: #04aa6D;
+
 }
 
-li a:active{
-
-background-color: #04aa6D;
-
-}
+/* ^^^^ c'est la navigation au dessus ^^^^ */
 
 #promotion{
 
@@ -57,11 +74,7 @@ background-color: #04aa6D;
      
 }
 
-.accueil {
-
-
-    
-}
+/* ^^^^ promotion above ^^^^ */
 
 .ecrit { 
 
@@ -70,28 +83,114 @@ background-color: #04aa6D;
 
 }
 
-aside {
-
- display: flex;
-  justify-content: end;
-   float: right;
+div {   
+   display: flex;
+  
 }
-
 
 .Colonne {
-
-    display: flex;
-    width: 40%;
-    height: 12.5em;
-    padding: 6em 6em 6em 6em;
+    
     border: 0px solid black;
     background-color: grey;
-    overflow: auto;
-
+    width: 50%;
 }
 
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+/*----Bouton du bas de la page----*/
+
+.BotBar{
+
+    display: flex;
+     list-style-type: none;
+      margin: 0;
+       padding: 0;
+        overflow: hidden;
+         background-color: #1d1d1d;
+
+   }
+
+   .linkBot{ 
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    
+}
 
 
 
+
+/*--Tableau--*/
+.BBQS{
+    width: 6.25rem;
+}
+
+
+
+
+
+
+/*----------------Fin-------------------*/
+
+
+
+/* Responsive */
+
+@media screen and (max-width : 768px)
+{  
+
+    .LogoJardi{
+
+        width: 13.9em;
+        height: auto;
+
+    } 
+
+
+   .TopBar{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    }
+
+
+
+    body {
+
+        max-width: 768px;
+    }
+
+    .Slogan{
+
+        display: flex;
+        text-decoration: underline;
+         text-transform:uppercase;
+          font-size: 18px;
+           margin-left: 0%;
+
+               }
+
+    section{
+
+        font-size: 18px;
+    }
+
+
+    .Colonne{
+
+        display: none;
+
+    }
+
+
+    .BotBar{
+
+    font-size: 18px;
+     display: flex;
+      flex-direction: column;
+       align-items:center;
+
+    }
+}
